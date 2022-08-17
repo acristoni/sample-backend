@@ -13,7 +13,7 @@ export class AppService {
   ) {}
   
   getHello(): string {
-    return 'Hello World!';
+    return 'I am Gateway microservice!';
   }
 
   createUser(createUserRequest: CreateUserRequest) {
